@@ -1,0 +1,119 @@
+@import 'vars';
+@import 'global';
+@import 'fonts';
+
+
+.header__top {
+    background-color: #eef1f3;
+}
+
+.header__top-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+.header__block {
+    display: flex;
+    align-items: center;
+}
+.header__btn-seller {
+    margin: 0 auto;
+    color: #fff;
+    font-size: 14px;
+    line-height: 28px;
+    background-color: $blue-btn;
+    padding: 4px 17px;
+    border-radius: 10px;
+}
+.far,
+.fas {
+    color: #7e8fa1;
+}
+
+.header__profil {
+    margin: 0 48px 0 50px;
+}
+
+.header__profil-link + .header__profil-link {
+    margin-left: 34px;
+}
+.header__avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.header__info-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__name-autor {
+    color: $text;
+    font-weight: 500;
+}
+.header__name-price {
+    font-size: 15px;
+    line-height: 22px;
+    color: $blue-btn;
+}
+.header__menu {
+    background-color: #fff;
+}
+.header__menu-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.header__list {
+    display: flex;
+    justify-content: flex-start;
+    height: 80px;
+    align-items: center;
+    
+}
+.header__link {
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 42px;
+    color: $text;
+}
+.header__item + .header__item {
+    margin-left: 30px;
+}
+.header__form {
+    position: relative;
+}
+.header__form-text {
+    width: 360px;
+    padding: 13px 80px 13px 25px;
+    border-radius: 25px;
+    border: 1px solid #d9dfe5;
+    ::placeholder {
+        font-size: 15px;
+        line-height: 30px;
+        color: #898f96;
+    }
+}
+.header__form-btn {
+    position: absolute;
+    background-color: $blue-btn;
+    border: none;
+    outline: transparent;
+    padding: 13px 27px;
+    border-radius: 25px;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+}
+
+
+
