@@ -115,5 +115,124 @@
     cursor: pointer;
 }
 
+.create {
+    background-color: #2548cc;
+    margin-bottom: 100px;
+}
 
+.create__inner {
+    padding: 180px 0 135px;
+    color: #f3f3f8;
+    text-align: center;
+}
+.create__title {
+    text-transform: capitalize;
+    font-size: 60px;
+    line-height: 70px;
+}
+.create__title--size {
+    font-weight: 700;
+}
+.create__subtitle {
+    font-size: 20px;
+    line-height: 72px;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+.create__link {
+    display: inline-block;
+    font-size: 16px;
+    line-height: 55px;
+    border-radius: 25px;
+    padding: 0 30px;
+}
 
+.create__link--white {
+    background-color: #fff;
+    color: $blue-btn;
+    margin-right: 30px;
+}
+.create__link--blue {
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #d7def5;
+}
+
+.create__form {
+    padding: 40px;
+    background-color: #fff;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    position: relative;
+    bottom: -72px;
+}
+.create__form::before {
+    content: '';
+
+}
+.create__text {
+    padding: 20px 30px;
+    border-bottom-left-radius: 3px;
+    border-top-left-radius: 3px;
+    border: 1px solid #dcdcdc;
+    outline: transparent;
+    width: 600px;
+    &::placeholder {
+        color: #676767;
+        font-size: 16px;
+    }
+}
+
+.create__select {
+    border: 1px solid #dcdcdc;
+    padding: 20px 0 20px 20px;
+    font-size: 16px;
+    appearance: none;
+    background-image: url(../img/arrow.png);
+    background-repeat: no-repeat; 
+    background-position: right;
+}
+
+.create__item {
+    font-size: 16px;
+    color: #555;
+}
+.create__btn {
+    font-size: 16px;
+    color: #fff;
+    background-color: $blue-btn;
+    border: none;
+    outline: transparent;
+    padding: 20px 90px 20px 65px;
+    border-radius: 8px;
+    margin-left: 30px;
+}
+
+.information {
+    padding-bottom: 280px;
+    padding-top: 120px;
+}
+
+.information__inner {
+    display: flex;
+    justify-content: space-between;
+}
+.information__item {
+    max-width: 360px;
+    text-align: center;
+    padding: 0 33px;
+}
+
+.information__img {
+    margin-bottom: 40px;
+}
+.information__title {
+    font-size: 24px;
+    color: #000;
+    margin-bottom: 25px;
+}
+.information__description {
+    font-size: 16px;
+    line-height: 30px;
+    color: #555;
+}
