@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MmartPlace</title>
     <link rel="stylesheet" href="css/libs.min.css">
-    <script src="https://kit.fontawesome.com/987d4f6dc8.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/slick.css">
     <link rel="stylesheet" href="css/style.min.css">
 </head>
 
@@ -21,9 +21,21 @@
                     <div class="header__block">
                         <a class="header__btn-seller" href="#">Become a Seller</a>
                         <div class="header__profil">
-                            <a class="header__profil-link far fa-bell" href="#"></a>
-                            <a class="header__profil-link far fa-envelope" href="#"></a>
-                            <a class="header__profil-link fas fa-shopping-cart" href="#"></a>
+                            <a class="header__profil-link header__alarm" href="#">
+                                <span class="header__number header__number--alarm">
+                                    25
+                                </span>
+                            </a>
+                            <a class="header__profil-link header__envelope" href="#">
+                                <span class="header__number header__number--envelope">
+                                    6
+                                </span>
+                            </a>
+                            <a class="header__profil-link header__cart" href="#">
+                                <span class="header__number header__number--cart">
+                                    2
+                                </span>
+                            </a>
                         </div>
                         <div class="header__info-box">
                             <a class="header__avatar" style="background-image: url(img/user.jpg);"></a>
@@ -62,9 +74,7 @@
             <div class="create__inner">
                 <div class="create__title">
                     Create Your Own
-                </div>
-                <div class="create__title create__title--size">
-                    Digital Product Marketplace
+                    <span>Digital Product Marketplace</span>
                 </div>
                 <div class="create__subtitle">
                     MartPlace is the most powerful, & customizable template for Easy Digital Downloads Products
@@ -102,11 +112,11 @@
                             Best UX Research
                         </div>
                     </a>
-                    <div class="information__description">
+                    <p class="information__description">
                         Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque
                         the mattis, leo quam aliquet diam
                         congue is laoreet elit metus.
-                    </div>
+                    </p>
                 </div>
                 <div class="information__item">
                     <a class="information__link" href="#">
@@ -115,11 +125,11 @@
                             Fully Responsive
                         </div>
                     </a>
-                    <div class="information__description">
+                    <p class="information__description">
                         Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque
                         the mattis, leo quam aliquet diam
                         congue is laoreet elit metus.
-                    </div>
+                    </p>
                 </div>
                 <div class="information__item">
                     <a class="information__link" href="#">
@@ -128,13 +138,89 @@
                             Buy & Sell Easily
                         </div>
                     </a>
-                    <div class="information__description">
+                    <p class="information__description">
                         Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque
                         the mattis, leo quam aliquet diam
                         congue is laoreet elit metus.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section class="slider">
+        <div class="container">
+            <div class="slider__title">
+                Weekly Featured Products
+            </div>
+            <div class="slider__inner">
+
+                <div class="slider__item">
+                    <div class="slider__item-inner">
+                        <img class="slider__img" src="img/bg-slider.jpg" alt="slider">
+                        <div class="slider__info-box">
+                            <div class="slider__info-title">
+                                One Page Resume Template
+                            </div>
+                            <div class="slider__author">
+                                <a class="slider__author-link" href="#">
+                                    <img class="slider__author-img" src="img/author.jpg" alt="">
+                                    AazzTech
+                                </a>
+                                <a class="slider__author-name" href="#">WordPress</a>
+                            </div>
+                            <p class="slider__text">
+                                Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque the
+                                mattis, leo quam aliquet congue placerat mi id nisi interdum mollis. Praesent pharetra,
+                                justo ut scelerisque the mattis, leo quam aliquet congue justo ut scelerisque.
+                            </p>
+                            <div class="slider__link-box">
+                                <a class="slider__link" href="#">website</a>
+                                <a class="slider__link" href="#">plugin</a>
+                                <a class="slider__link" href="#">landing page</a>
+                            </div>
+                            <div class="slider__btn-box">
+                                <button class="slider__btn slider__btn--price" type="submit">$10 - $50</button>
+                                <button class="slider__btn slider__btn--like" type="submit">46</button>
+                                <button class="slider__btn slider__btn--basket" type="submit">634</button>
+                                <div class="slider__btn-rate"></div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                
+                <div class="slider__item">
+                    <div class="slider__item-inner">
+                        <img class="slider__img" src="img/bg-slider.jpg" alt="">
+                        <div class="slider__info-box">
+                            <div class="slider__info-title">
+                                One Page Resume Template
+                            </div>
+                            <div class="slider__author">
+                                <a class="slider__author-link" href="#">
+                                    <img class="slider__author-img" src="img/author.jpg" alt="">
+                                    AazzTech
+                                </a>
+                                <a class="slider__author-name" href="#">WordPress</a>
+                            </div>
+                            <p class="slider__text">
+                                Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque the
+                                mattis, leo quam aliquet congue placerat mi id nisi interdum mollis. Praesent pharetra,
+                                justo ut scelerisque the mattis, leo quam aliquet congue justo ut scelerisque.
+                            </p>
+                            <div class="slider__link-box">
+                                <a class="slider__link" href="#">website</a>
+                                <a class="slider__link" href="#">plugin</a>
+                                <a class="slider__link" href="#">landing page</a>
+                            </div>
+                            <div class="slider__btn-box">
+                                <button class="slider__btn slider__btn--price" type="submit">$15 - $60</button>
+                                <button class="slider__btn slider__btn--like" type="submit">52</button>
+                                <button class="slider__btn slider__btn--basket" type="submit">588</button>
+                                <div class="slider__btn-rate"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -143,9 +229,12 @@
 
 
 
+    
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="js/libs.min.js"></script>
+    <script src="js/slick.min.js"></script>
     <script src="js/main.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>
