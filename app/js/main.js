@@ -15,6 +15,11 @@ $(function(){
         arrows:true,
     });
 
+        
+    $('.feed-slider__inner').slick({
+        dots:false,
+        arrows:true,
+    });
 
     var mixer = mixitup('.release__inner-box');
 
