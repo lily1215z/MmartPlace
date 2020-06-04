@@ -680,7 +680,7 @@ button.mixitup-control-active {
         margin-bottom: 0; 
     }
     .release__item {
-        box-shadow: 0px 2px 4px 0px rgba(108, 111, 115, 0.9);
+        box-shadow: 0px 2px 4px 0px rgba(108, 111, 115, 0.1);
     }
 }
 
@@ -1233,3 +1233,299 @@ button.mixitup-control-active {
         }
     }
 }
+
+// end news
+// start join
+
+.join {
+    padding: 110px 0;
+    background-image: linear-gradient(to left, #0d3ef2 0%, #7221a0 100%);
+    &__inner {
+        text-align: center;
+    }
+    &__title {
+        font-size: 36px;
+        color: #fff;
+        margin-bottom: 23px;
+    }
+    &__subtitle {
+        font-size: 18px;
+        color: #e7e7e7;
+        margin-bottom: 70px;
+    }
+    &__link {
+        font-size: 16px;
+        color: $blue-btn;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        border-radius: 28px;
+        background-color: #ffffff;
+        padding: 20px 43px;
+        transition: all .5s;
+        &:hover {
+            background-color: transparent;
+            border: 1px solid #fff;
+            color: #fff;
+        }
+    }
+}
+
+// end join
+// start footer
+
+.footer {
+    padding: 115px 0 119px;
+    background-color: #262b30;
+    font-size: 15px;
+    color: #ababab;
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__info {
+        max-width: 270px;
+    }
+    &__logo {
+        display: block;
+        margin-bottom: 24px;
+    }
+    &__text {
+        line-height: 28px;
+        margin-bottom: 20px;
+    }
+    &__info-box {
+        margin-left: 30px;
+    }
+    &__tel {
+        line-height: 26px;
+        color: #ababab;
+        position: relative;
+        &::before {
+            content: '\e830';
+            font-family: 'Linearicons-Free';
+            position: absolute;
+            font-size: 16px;
+            top: -2px;
+            left: -28px;
+        }
+    }
+    &__mailto {
+        line-height: 26px;
+        color: #ababab;
+    }
+    &__mail {
+        position: relative;
+        &::before {
+            content: '\e818';
+            font-family: 'Linearicons-Free';
+            position: absolute;
+            font-size: 16px;
+            top: 5px;
+            left: -28px;
+        }
+    }
+    &__address {
+        line-height: 26px;
+        margin-top: 15px;
+        position: relative;
+        &::before {
+            content: '\e833';
+            font-family: 'Linearicons-Free';
+            position: absolute;
+            font-size: 16px;
+            top: 10px;
+            left: -28px;
+        }
+    }
+    &__company {
+        max-width: 160px;
+    }
+    &__help {
+        max-width: 160px;
+    }
+    &__letter {
+        max-width: 360px;
+    }
+    &__title {
+        font-size: 18px;
+        color: #fff;
+        line-height: 42px;
+        letter-spacing: 0.9px;
+        padding-top: 5px;
+        margin-bottom: 15px;
+    }
+    &__link {
+        line-height: 32px;
+        color: #ababab;
+    }
+    &__form {
+        margin-top: 30px;
+        margin-bottom: 48px;
+        position: relative;
+    }
+    &__send {
+        width: 100%;
+        padding: 19px 120px 19px 30px;
+        border-radius: 25px;
+        background-color: #fff;
+        border: none;
+        outline: transparent;
+    }
+    &__btn {
+        color: #fff;
+        padding: 19px 31px;
+        border: none;
+        outline: transparent;
+        background-color: $blue-btn;
+        border-radius: 25px;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    &__social-box {
+        display: flex;
+        li + li {
+            margin-left: 13px;
+        }
+    }
+}
+
+.footer__social--facebook {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    background-color: #395799;
+    position: relative;
+    &::before {
+        content: '\f09a';
+        position: absolute;
+        font-family: 'icomoon';
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 16px;
+        color: #fff;
+    }
+    &:hover {
+        transform: scale(1.3);
+    }
+}
+
+.footer__social--twitter {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    background-color: #19b2f5;
+    position: relative;
+    &::before {
+        content: '\f099';
+        position: absolute;
+        font-family: 'icomoon';
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 16px;
+        color: #fff;
+    }
+    &:hover {
+        transform: scale(1.3);
+    }
+}
+
+.footer__social--google {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    background-color: #f05b44;
+    position: relative;
+    &::before {
+        content: '\f1a0';
+        position: absolute;
+        font-family: 'icomoon';
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 16px;
+        color: #fff;
+    }
+    &:hover {
+        transform: scale(1.3);
+    }
+}
+
+.footer__social--pinterest {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    background-color: #9c0c1c;
+    position: relative;
+    &::before {
+        content: '\f0d2';
+        position: absolute;
+        font-family: 'icomoon';
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 16px;
+        color: #fff;
+    }
+    &:hover {
+        transform: scale(1.3);
+    }
+}
+
+.footer__social--in {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    background-color: #0da6be;
+    position: relative;
+    &::before {
+        content: '\f0e1';
+        position: absolute;
+        font-family: 'icomoon';
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 16px;
+        color: #fff;
+    }
+    &:hover {
+        transform: scale(1.3);
+    }
+}
+
+.footer__social--dribble {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    background-color: #ea4c89;
+    position: relative;
+    &::before {
+        content: '\f17d';
+        position: absolute;
+        font-family: 'icomoon';
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 16px;
+        color: #fff;
+    }
+    &:hover {
+        transform: scale(1.3);
+    }
+}
+
+.footer-down {
+    background-color: #192027;
+    padding: 40px 0;
+    text-align: center;
+    font-size: 15px;
+    line-height: 27px;
+    &__inner {
+        color: #999;
+    }
+    span {
+        color: #fff;
+    }
+}
+// end footer

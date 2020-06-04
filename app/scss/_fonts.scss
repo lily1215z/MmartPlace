@@ -102,8 +102,8 @@
 .lnr-bubble:before {
 	content: "\e83f";
 }
-.lnr-map:before {
-	content: "\e834";
+.lnr-map-marker:before {
+	content: "\e833";
 }
 .lnr-eye:before {
 	content: "\e81b";
@@ -141,3 +141,49 @@
 .lnr-exit:before {
 	content: "\e820";
 }
+
+@font-face {
+	font-family: 'icomoon';
+	src: url('../fonts/icomoon.ttf?wkcbdi') format('truetype'),
+	  url('../fonts/icomoon.woff?wkcbdi') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: block;
+  }
+  
+  [class^="icon-"], [class*=" icon-"] {
+	/* use !important to prevent issues with browser extensions that change fonts */
+	font-family: 'icomoon' !important;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+  
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-twitter:before {
+	content: "\f099";
+  }
+  .icon-facebook:before {
+	content: "\f09a";
+  }
+  .icon-facebook-f:before {
+	content: "\f09a";
+  }
+  .icon-pinterest:before {
+	content: "\f0d2";
+  }
+  .icon-linkedin:before {
+	content: "\f0e1";
+  }
+  .icon-dribbble:before {
+	content: "\f17d";
+  }
+  .icon-google:before {
+	content: "\f1a0";
+  }
+  
