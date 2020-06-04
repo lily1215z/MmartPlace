@@ -1,6 +1,6 @@
 $(function(){
 
-    $(".btn-rate").rateYo({
+    $(".rate").rateYo({
         rating: 4.6,
         starWidth:"15px",
         readOnly: true,
@@ -19,6 +19,8 @@ $(function(){
     $('.feed-slider__inner').slick({
         dots:false,
         arrows:true,
+        slidesToScroll:2,
+        slidesToShow:3,
     });
 
     var mixer = mixitup('.release__inner-box');
