@@ -1,0 +1,260 @@
+@media (max-width: 1023px) {
+    .header__top-inner {
+        height: 90px;
+    }
+    .header__btn-seller {
+        display: none;
+        margin: 0;
+        line-height: 35px;
+    }
+    .header__menu-inner {
+        display: block;
+    }
+    .header__btn-seller--media {
+        display: inline-block;
+    }
+    .header__form-box {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 15px;
+    }
+    .header__form-text {
+        width: 490px;
+    }
+    .header__list .header__item {
+        margin: 0;
+    }
+    .header__list {
+        height: 50px;
+    }
+    .create {
+        margin-top: 20px;
+        &__inner {
+            padding: 140px 0 85px;
+        }
+        &__title {
+            font-size: 50px;
+        }
+        &__subtitle {
+            font-size: 16px;
+            line-height: 46px;
+        }
+        &__text {
+            font-size: 14px;
+            padding: 10px;
+            &::placeholder {
+                font-size: 14px;
+            }
+        }
+        &__select {
+            font-size: 14px;
+            padding: 10px 0 10px 10px;
+        }
+        &__btn {
+            padding: 10px 40px;
+            font-size: 14px;
+        }
+        &__form {
+            padding: 25px;
+        }
+    }
+    .information {
+        padding: 50px 0 90px;
+        &__item {
+            padding: 20px;
+        }
+    }
+    .slider {
+        &__item-inner {
+            flex-wrap: wrap;
+        }
+        &__info-title {
+            margin-top: 20px;
+        }
+        &__text {
+            margin-bottom: 15px;
+        }
+        &__link-box {
+            margin-bottom: 30px;
+        }
+        &__img {
+            margin: 0 auto;
+        }
+        &__info-box {
+            padding: 0 20px;
+            margin: 0 auto;
+        }
+    }
+    .author {
+        margin-bottom: 20px;
+    }
+    
+}
+
+@media (max-width: 700px) {
+    .header__menu-btn {
+        display: block;
+    }
+    .header__top-inner {
+        padding-left: 0;
+    }
+    .header__list {
+        display: none;
+        position: absolute;
+        background-color: #fff;
+        width: 100%;
+        z-index: 2;
+        text-align: center;
+        height: 220px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+        top: 115px;
+    }
+    // блок к корзиной/письмом/колокольчиком
+    .header__profile {   
+        display: none;
+    }
+    // вторая кнопка Стать продавцом
+    .header__btn-seller--media {
+        display: none;
+    }
+    .header__form {
+        margin: 0 auto;
+        max-width: 100%;
+    }
+    .create {
+        &__title {
+            font-size: 40px;
+        }
+        &__subtitle {
+            font-size: 14px;
+            line-height: 30px;
+        }
+        &__select {
+            background-position: 145px  50%;
+        }
+    }
+    .information {
+        &__inner {
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        &__title--fully {
+            max-width: 50%;
+        }
+        &__title--sell {
+            max-width: 50%;
+        }
+    }
+   
+    
+}
+
+
+@media (max-width: 550px) {
+    .header__form-text {
+        width: 100%;
+    }
+    .create {
+        &__title {
+            font-size: 30px;
+        }
+        &__subtitle {
+            font-size: 12px;
+            line-height: 26px;
+        }
+        &__link {
+            font-size: 14px;
+            line-height: 50px;
+            &--size {
+                margin-right: 10px;
+            }
+        }
+        &__inner {
+            padding: 100px 0 60px;
+        }
+        &__form {
+            padding: 20px;
+            flex-wrap: wrap;
+            &::before {
+                width: 96%;
+                left: 2%;
+            }
+            &::after {
+                width: 92%;
+                left: 4%;
+            }
+        }
+        &__text {
+            margin-bottom: 10px;
+        }
+        &__select {
+            background-position: 165px  50%;
+        }
+    }
+    .information__item {
+        max-width: 100%;
+        padding: 20px 0;
+    }
+}
+
+@media (max-width: 430px) {
+    .header__name-box {
+        display: none;
+    }
+    .create {
+        &__inner {
+            padding: 80px 0 50px;
+        }
+        &__select {
+            margin: 0 auto;
+            margin-bottom: 10px;
+            padding: 15px 0 15px 15px;
+        }
+        &__btn {
+            margin: 0 auto;
+        }
+        &__text {
+            padding: 15px 0 15px 15px;
+        }
+        &__btn {
+            padding: 15px 55px;
+        }
+        &__link--size {
+            margin-right: 0;
+            margin-bottom: 10px;
+        }
+        &__title {
+            font-size: 20px;
+            line-height: 40px;
+        }
+        &__subtitle {
+            font-size: 10px;
+            line-height: 20px;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 700px) {
+    .header__menu-inner .header__list {
+        display: flex !important;
+    }
+    .header__item + .header__item {
+        margin-left: 30px;
+    }
+}

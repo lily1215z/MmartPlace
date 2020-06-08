@@ -23,6 +23,10 @@ $(function(){
         slidesToShow:3,
     });
 
+    $('.header__menu-btn').on('click', function(){
+        $('.header__menu-inner ul').slideToggle();
+    });
+
     var mixer = mixitup('.release__inner-box');
 
 });

@@ -2,15 +2,6 @@ $blue: #0d33bd;
 $blue-btn: #0674ec;
 $text: #333;
 
-@mixin f700 {
-    font-family: 'Quicksand';
-    font-weight: 700;
-}
-
-@mixin f500 {
-    font-family: 'Quicksand';
-    font-weight: 500;
-}
 @mixin title {
     font-size: 30px;
     color: #000;
